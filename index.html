@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="Main/assets/css/styles.css">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <div id="scores"><a href="highscores.html">View Highscores</a></div>
+        <div id="timer">Time: <span id="time">0</span></div>
+    </header>
+    <section id="start-screen" class="start">
+        <h1>JavaScript Code Quiz</h1>
+        <p>
+            Answer the following JS coding questions wihtin the time limit. 
+            Incorrect answers will be penalize your score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz!</button>
+    </section>
+    <section id="questions" class="hide">
+        <h2 id="questions-title"></h2>
+        <div id="choices" class="choices">
+        </div>
+    </section>
+    <section id="end-screen" class="hide">
+        <h2>Quiz Complete!</h2>
+        <p>Your score is <span id="end-score">.</span></p>
+        <p>
+            Enter initials: <input type="text" id="initials" max="3"/>
+            <button id="submit" onClick="setHighscore">Submit</button>
+        </p>
+    </section>
+
+    <div id="feedback" class="hide"></div>
     
-    <script src="assets/js/JavaScript.js"></script>
+    <script src="Main/assets/js/questions.js"></script>
+    <script src="Main/assets/js/highscoreList.js"></script>
+    <script src="Main/assets/js/JavaScript.js"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.hide {
+    display: none;
+}
+
+.unhide {
+    display: contents;
+}
+
+#highscore-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
