@@ -83,7 +83,14 @@ function correct() {
   feedbackElement.setAttribute("class", "unhide");
   currentQuestionIndex++;
   score += 100;
+  if (score > 1000) {
+    score += timeLeft * 10;
+    endScreen.setAttribute("class", "unhide");
+    questionsElement.setAttribute("class", "hide");
+    endScore.textContent = score + ".";
+  } else {
   getCurrentQuestion();
+  }
 }
 
 function incorrect() {
