@@ -19,7 +19,6 @@ var highscoreName = document.querySelector("#initials");
 function startQuiz() {
   // hides start screen
   startScreen.setAttribute("class", "hide");
-
   // Show questions
   questionsElement.removeAttribute("class", "hide");
   questionsElement.setAttribute("class", "unhide");
