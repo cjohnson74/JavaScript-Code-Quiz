@@ -53,10 +53,18 @@ button {
     margin: .25rem;
 }
 
+a button {
+    width: 100%;
+}
+
 button:hover {
     background-color: rgba(106,13,173, .85);
     border-color: rgb(106,13,173, .85);
     box-shadow: 0px 0px 5px purple;
+}
+
+button:hover:active {
+    box-shadow: 0px 0px 15px purple;
 }
 
 #choices {
@@ -72,17 +80,3 @@ button:hover {
     background-color: rgb(106,13,173, .5);
     width: 50%;
 }
-
-/* #highscore-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50rem;
-} */
-
-/* .scoreRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 20rem;
-} */

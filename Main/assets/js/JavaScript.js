@@ -45,6 +45,7 @@ function countdown() {
       // Call the `displayMessage()` function
       endScreen.setAttribute("class", "unhide");
       questionsElement.setAttribute("class", "hide");
+      feedbackElement.setAttribute("class", "hide");
       endScore.textContent = score + ".";
     }
   }, 1000);
