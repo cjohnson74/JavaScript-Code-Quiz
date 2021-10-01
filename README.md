@@ -10,10 +10,8 @@ https://cjohnson74.github.io/JavaScript-Code-Quiz/
 
 <img width="1094" alt="Screen Shot 2021-10-01 at 12 26 32 AM" src="https://user-images.githubusercontent.com/52815609/135565468-9b549084-9038-49c4-b44e-768f90112fab.png">
 
-<img width="1092" alt="Screen Shot 2021-10-01 at 12 26 43 AM" src="https://user-images.githubusercontent.com/52815609/135565473-4433226b-934d-4ba5-a82d-13ea44c3d930.png">
+<img width="1094" alt="Screen Shot 2021-10-01 at 12 26 43 AM" src="https://user-images.githubusercontent.com/52815609/135565473-4433226b-934d-4ba5-a82d-13ea44c3d930.png">
 
-<img width="1093" alt="Screen Shot 2021-10-01 at 12 27 07 AM" src="https://user-images.githubusercontent.com/52815609/135565478-317435c5-e09d-4f10-80e4-b162581b5dbb.png">
+<img width="1094" alt="Screen Shot 2021-10-01 at 12 27 07 AM" src="https://user-images.githubusercontent.com/52815609/135565478-317435c5-e09d-4f10-80e4-b162581b5dbb.png">
 
-<img width="457" alt="Screen Shot 2021-10-01 at 12 27 19 AM" src="https://user-images.githubusercontent.com/52815609/135565482-5a49c440-5bc8-42e4-bc58-e3400ef2e388.png">
-
-<img width="912" alt="Screen Shot 2021-10-01 at 12 31 23 AM" src="https://user-images.githubusercontent.com/52815609/135565552-f583b1b0-f341-49e7-bd02-e092acb7d1cc.png">
+<img width="1094" alt="Screen Shot 2021-10-01 at 12 31 23 AM" src="https://user-images.githubusercontent.com/52815609/135565552-f583b1b0-f341-49e7-bd02-e092acb7d1cc.png">
