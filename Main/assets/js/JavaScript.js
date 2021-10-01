@@ -2,9 +2,6 @@ var timeLeft = questions.length * 15;
 var timerId;
 var currentQuestionIndex = 0;
 var score = 0;
-// var correct = false;
-// var incorrect = false;
-
 // DOM element variables to use
 var startScreen = document.querySelector("#start-screen");
 var startBtn = document.querySelector("#start");
@@ -24,17 +21,12 @@ function startQuiz() {
   startScreen.setAttribute("class", "hide");
 
   // Show questions
-  questionsElement.removeAttribute("class", "unhide");
+  questionsElement.removeAttribute("class", "hide");
+  questionsElement.setAttribute("class", "unhide");
   // setTimeout();
   getCurrentQuestion();
   countdown();
 }
-
-// setTimeout(function (){
-//     getCurrentQuestion();
-//     endScreen.setAttribute("class", "unhide");
-
-// }, time);
 
 function countdown() {
   // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
@@ -85,8 +77,12 @@ function correct() {
   score += 100;
   if (score >= 1000) {
     endScreen.setAttribute("class", "unhide");
+    questionsElement.removeAttribute("class", "unhide");
     questionsElement.setAttribute("class", "hide");
+    feedbackElement.removeAttribute("class", "unhide");
+    feedbackElement.setAttribute("class", "hide");
     endScore.textContent = score + ".";
+    timeLeft = 0;
   } else {
   getCurrentQuestion();
   }
@@ -109,14 +105,6 @@ function setHighscore() {
 
   localStorage.setItem("highscore", JSON.stringify(highscores)); // store the scores
 
-  //   for (var i = 0; i <= localStorage.length; i++) {
-  //     savedScores[i].name = localStorage[i].key;
-  //     savedScores[i].score = localStorage[i].value;
-  //   }
-  //   savedScores.score.sort();
-  //   for (var i = 0; i <= savedScores.length; i++) {
-  //     localStorage.setItem(savedScores[i].name, savedScores[i].score);
-  //   }
   window.location.href = "highscores.html";
 }
 

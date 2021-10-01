@@ -25,16 +25,5 @@ for (var i = 0; i < savedScores.length; i++) {
   prevTr.appendChild(tD);
 }
 
-// for (var i = 1; i < localStorage.length; i++) {
-//   for (var j = 0; j < 9; j++) {
-//     if (localStorage.key.length <= 3) {
-//       savedScores[j][0] = localStorage.key[i];
-//       savedScores[j][1] = localStorage.Value[i];
-//     }
-//     else {
-//         break;
-//     }
-//   }
-// }
 
 clearHsBtn.addEventListener("click", clearHighscores);
