@@ -23,6 +23,10 @@ body {
     padding-right: 20%;
 }
 
+#end-box-button {
+    flex-direction: row;
+}
+
 #scores a {
     text-decoration: none;
     color: var(--purple);
