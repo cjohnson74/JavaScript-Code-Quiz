@@ -92,6 +92,18 @@ function incorrect() {
   feedbackElement.textContent = "INCORRECT!";
   feedbackElement.setAttribute("class", "unhide");
   timeLeft -= 15;
+  currentQuestionIndex++;
+  if (score >= 1000) {
+    endScreen.setAttribute("class", "unhide");
+    questionsElement.removeAttribute("class", "unhide");
+    questionsElement.setAttribute("class", "hide");
+    feedbackElement.removeAttribute("class", "unhide");
+    feedbackElement.setAttribute("class", "hide");
+    endScore.textContent = score + ".";
+    timeLeft = 0;
+  } else {
+  getCurrentQuestion();
+  }
 }
 
 function setHighscore() {
